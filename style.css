@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Acumin Variable Concept";
+    src: local("Acumin Variable Concept") url("./Acumin-Variable-Concept.ttf") format("truetype");
+}
+body{
+    font-family: "Acumin Variable Concept";
+}
+
 .navbar {
     background-color: white;
     overflow: hidden;
