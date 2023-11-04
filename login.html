@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/nav.css">
+
 </head>
-<body>
-    <h1>login</h1>
+<body style="margin: 0;">
+    <navbar
+        style="display: flex; align-items: center; justify-content: space-between; padding-right: 20px; padding-top: 10px;">
+        <div style="display: flex; gap: 5px;">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="/index.html">inicio</a></li>
+                    <li><a class="menu__item" href="/about_us.html">Sobre nostros</a></li>
+                    <li><a class="menu__item" href="/paso_a_paso.html">Pasos</a></li>
+                    <li><a class="menu__item" href="/propiedades.html">Propiedades</a></li>
+                    <li><a class="menu__item" href="/blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <a href="index.html">
+                <img style="margin-left: 30px; height: 60px; width: 129px" id="img-logo" src="/assets/logo_clear.png"
+                    alt="Logo">
+            </a>
+        </div>
+        <ul class="font-color-secunday">
+            <a class="font-color-secunday" href="#">ESPAÑOL</a>
+            <a class="font-color-secunday"
+                style="margin-left: 10px; border-left: solid 1px #494747; padding-right: 10px; border-right: solid 1px #494747; padding-left: 10px;"
+                href="/login.html">INICIAR / REGISTRARSE</a>
+            <a class="font-color-secunday" href="#section-contact">CONTACTO</a>
+        </ul>
+    </navbar>
 </body>
 </html>
