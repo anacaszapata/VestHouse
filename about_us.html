@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pop_up.css">
 </head>
 
 <body style="margin: 0;">
@@ -49,7 +50,18 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic maxime illo aperiam ratione ex eos!
                     Animi numquam eius, veritatis placeat obcaecati sed atque impedit aliquam non quidem autem voluptate
                     repellendus.</p>
+                <p>
+                    <a style="font-size: 20px;" href="#popup1" class="font-blue">Leer más...</a>
+                </p>
 
+                <div id="popup1" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#">&times;</a>
+                        <div class="">
+                            <img style="width: 100%; height: 100%;" src="./assets/periodico_page.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -130,7 +142,7 @@
             </div>
         </div>
     </section>
-    
+
 
 
 </body>

@@ -19,11 +19,12 @@
                 </label>
 
                 <ul class="menu__box">
-                    <li><a class="menu__item" href="#">Home</a></li>
-                    <li><a class="menu__item" href="#">About</a></li>
-                    <li><a class="menu__item" href="#">Team</a></li>
-                    <li><a class="menu__item" href="#">Contact</a></li>
-                    <li><a class="menu__item" href="#">Twitter</a></li>
+                    <li><a class="menu__item" style="grid-gap: 5px" href="/index.html">inicio</a></li>
+                    <li><a class="menu__item" style="grid-gap: 5px" href="/about_us.html">Sobre nostros</a></li>
+                    <li><a class="menu__item" style="grid-gap: 5px" href="#">Paso a paso de inversión</a></li>
+                    <li><a class="menu__item" style="grid-gap: 5px" href="/propiedades.html">Propiedades</a></li>
+                    <li><a class="menu__item" style="grid-gap: 5px" href="#">Blog</a></li>
+                    <li><a class="menu__item" style="grid-gap: 5px" href="#">Twitter</a></li>
                 </ul>
             </div>
             <a href="index.html">
@@ -36,90 +37,98 @@
             <a class="font-color-secunday" href="#">ESPAÑOL</a>
             <a class="font-color-secunday" href="#">INICIAR / REGISTRARSE</a>
             <a class="font-color-secunday" href="#section-contact">CONTACTO</a>
-            <a class="font-color-secunday" href="./about_us.html">SOBRE NOSTROS</a>
         </ul>
     </navbar>
 
     <!-- titulo -->
     <section class="section-blue">
         <div style="display: flex; text-align: center; ">
-            <div style="flex: 50%; color: #fff; padding-top: 5%; padding-right: 10%; padding-left: 10%;padding-bottom: 5%">
+            <div
+                style="flex: 50%; color: #fff; padding-top: 5%; padding-right: 10%; padding-left: 10%;padding-bottom: 5%">
                 <span style="font-size: 35px;">Las mejores propiedades para invertir</span>
                 <br>
                 <span style="font-size: 90px;">con VestHouse</span>
             </div>
         </div>
     </section>
-
-    <section>
-        <div style="margin-left: 10%; margin-right: 10%; flex: 1;">
-            <div class="carousel" style="border-radius: 10px;">
-                <div class="carousel-inner">
-                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true"
-                        hidden="" checked="checked">
-                    <div class="carousel-item" style="display: flex; flex: 1;">
-                        <img src="/assets/invest_house.png">
-                        <div class="font-blue footer-carrousel">
-                            <span>Direccion: casa 12</span>
-                            <br>
-                            <span>Precio: 1000.000.000</span>
-                            <br>
-                            <span>Fracciones disponibles: xxxx</span>
-                            <br>
-                        </div>
-                        <div style="flex: 1;">
-                            <div></div>
-                        </div>
+    <!-- Properties -->
+    <section >
+        <div style="display: flex; padding-bottom: 30px; padding-top: 30px;">
+            <div style="flex: 1;">
+                <div class="border-blue card-properties">
+                    <div>
+                        <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
                     </div>
-                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"
-                        hidden="">
-                    <div class="carousel-item">
-                        <img src="/assets/robert.png">
-                        <div class="font-blue footer-carrousel">
-                            <span>Direccion: penthouse</span>
-                            <br>
-                            <span>Precio: 8.000.000.000</span>
-                            <br>
-                            <span>Fracciones disponibles: xxxx</span>
-                            <br>
-                        </div>
+                    <div style="padding-left: 30px;">
+                        <p>Direccion: xxxx</p>
+                        <p>Precio: xxxx</p>
+                        <p>Fracciones disponibles: xxxx</p>
                     </div>
-                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true"
-                        hidden="">
-                    <div class="carousel-item">
-                        <img src="/assets/invest_house.png">
-                        <div class="font-blue footer-carrousel">
-                            <span>Direccion: carrera 50394</span>
-                            <br>
-                            <span>Precio: 90.505.959</span>
-                            <br>
-                            <span>Fracciones disponibles: xxxx</span>
-                            <br>
-                        </div>
-                    </div>
-                    <label for="carousel-3" class="carousel-control prev control-1">‹</label>
-                    <label for="carousel-2" class="carousel-control next control-1">›</label>
-                    <label for="carousel-1" class="carousel-control prev control-2">‹</label>
-                    <label for="carousel-3" class="carousel-control next control-2">›</label>
-                    <label for="carousel-2" class="carousel-control prev control-3">‹</label>
-                    <label for="carousel-1" class="carousel-control next control-3">›</label>
-                    <ol class="carousel-indicators">
-                        <!-- <li>
-                            <label for="carousel-1" class="carousel-bullet">•</label>
-                        </li>
-                        <li>
-                            <label for="carousel-2" class="carousel-bullet">•</label>
-                        </li>
-                        <li>
-                            <label for="carousel-3" class="carousel-bullet">•</label>
-                        </li> -->
-                    </ol>
                 </div>
             </div>
-            <div style="text-align: center; margin: 5%;">
-                <a href="login.html">
-                    <button href="login.html" class="button-primary">Invierte ahora!</button>
-                </a>
+            <div style="flex: 1;">
+                <div class="border-blue card-properties">
+                    <div>
+                        <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
+                    </div>
+                    <div style="padding-left: 30px;">
+                        <p>Direccion: xxxx</p>
+                        <p>Precio: xxxx</p>
+                        <p>Fracciones disponibles: xxxx</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; padding-bottom: 30px; padding-top: 30px;">
+            <div style="flex: 1;">
+                <div class="border-blue card-properties">
+                    <div>
+                        <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
+                    </div>
+                    <div style="padding-left: 30px;">
+                        <p>Direccion: xxxx</p>
+                        <p>Precio: xxxx</p>
+                        <p>Fracciones disponibles: xxxx</p>
+                    </div>
+                </div>
+            </div>
+            <div style="flex: 1;">
+                <div class="border-blue card-properties">
+                    <div>
+                        <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
+                    </div>
+                    <div style="padding-left: 30px;">
+                        <p>Direccion: xxxx</p>
+                        <p>Precio: xxxx</p>
+                        <p>Fracciones disponibles: xxxx</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; padding-bottom: 30px; padding-top: 30px;">
+            <div style="flex: 1;">
+                <div class="border-blue card-properties">
+                    <div>
+                        <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
+                    </div>
+                    <div style="padding-left: 30px;">
+                        <p>Direccion: xxxx</p>
+                        <p>Precio: xxxx</p>
+                        <p>Fracciones disponibles: xxxx</p>
+                    </div>
+                </div>
+            </div>
+            <div style="flex: 1;">
+                <div class="border-blue card-properties">
+                    <div>
+                        <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
+                    </div>
+                    <div style="padding-left: 30px;">
+                        <p>Direccion: xxxx</p>
+                        <p>Precio: xxxx</p>
+                        <p>Fracciones disponibles: xxxx</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
