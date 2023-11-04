@@ -1,0 +1,9 @@
+.green-box {
+    position: absolute;
+    background: #3C5E81;
+    width: 33%;
+    left: 770px;
+    top: 75px;
+    height: 320px;
+    border-radius: 10px;
+}
