@@ -309,3 +309,6 @@ select{
     border-radius: 10px;
     width: 100%;
 }
+body{
+    font-family: 'Arial Narrow', sans-serif;
+}
