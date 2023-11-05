@@ -96,6 +96,7 @@ select{
     border-radius: 8px;
     text-decoration: none;
     font-size: 20px;
+    cursor: pointer;
 }
 .card-simulator{
     margin-left: 13%; 
@@ -310,5 +311,9 @@ select{
     width: 100%;
 }
 body{
-    font-family: 'Arial Narrow', sans-serif;
+    font-family: 'Optima', sans-serif
+}
+
+.underline{
+    text-decoration-line: underline
 }
