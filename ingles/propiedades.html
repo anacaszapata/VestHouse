@@ -10,44 +10,51 @@
 </head>
 
 <body style="margin: 0;">
-    <navbar style="display: flex; align-items: center; justify-content: space-between; padding-right: 20px; padding-top: 10px;">
-        <div style="display: flex; gap: 5px;">
-            <div class="hamburger-menu">
-                <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
+    <nav
+    style="display: flex; align-items: center; justify-content: space-between; padding-right: 20px; padding-top: 10px;">
+    <div style="display: flex; gap: 5px;">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
 
-                <ul class="menu__box">
-                    <li><a class="menu__item" style="grid-gap: 5px" href="/index.html">inicio</a></li>
-                    <li><a class="menu__item" style="grid-gap: 5px" href="/about_us.html">Sobre nostros</a></li>
-                    <li><a class="menu__item" style="grid-gap: 5px" href="#">Paso a paso de inversión</a></li>
-                    <li><a class="menu__item" style="grid-gap: 5px" href="/propiedades.html">Propiedades</a></li>
-                    <li><a class="menu__item" style="grid-gap: 5px" href="#">Blog</a></li>
-                    <li><a class="menu__item" style="grid-gap: 5px" href="#">Twitter</a></li>
-                </ul>
-            </div>
-            <a href="index.html">
-                <img style="margin-left: 30px; height: 50px; width: 90px" id="img-logo" src="/assets/logo_clear.png"
-                alt="Logo">
-            </a>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="/ingles/index.html">Home</a></li>
+                <li><a class="menu__item" href="/ingles/about_us.html">About us</a></li>
+                <li><a class="menu__item" href="/ingles/paso_a_paso.html">Step by Step</a></li>
+                <li><a class="menu__item" href="/ingles/propiedades.html">Properties</a></li>
+                <li><a class="menu__item" href="/ingles/blog.html">Blog</a></li>
+            </ul>
         </div>
-        <ul class="font-color-secunday" >
-            <a class="font-color-secunday" href="#">MENÚ</a>
-            <a class="font-color-secunday" href="#">ESPAÑOL</a>
-            <a class="font-color-secunday" href="#">INICIAR / REGISTRARSE</a>
-            <a class="font-color-secunday" href="#section-contact">CONTACTO</a>
-        </ul>
-    </navbar>
+        <a href="index.html">
+            <img style="margin-left: 30px; height: 60px; width: 129px" id="img-logo" src="/assets/logo_clear.png"
+                alt="Logo">
+        </a>
+    </div>
+    <ul class="font-color-secunday">
+        <div class="dropdown">
+            <div class="dropbtn font-color-secunday">
+                <span>LANGUAGE</span>
+            </div>
+            <div class="dropdown-content">
+                <a href="/index.html">Spanish</a>
+                <a href="#">English</a>
+            </div>
+        </div>
+        <a id="second-option-menu" class="font-color-secunday" href="/login.html">START / REGISTER</a>
+        <a class="font-color-secunday" href="#section-contact">CONTACT</a>
+    </ul>
+</nav>
 
     <!-- titulo -->
     <section class="section-blue">
         <div style="display: flex; text-align: center; ">
             <div
                 style="flex: 50%; color: #fff; padding-top: 5%; padding-right: 10%; padding-left: 10%;padding-bottom: 5%">
-                <span style="font-size: 35px;">Las mejores propiedades para invertir</span>
+                <span style="font-size: 35px;">The best properties for investment</span>
                 <br>
-                <span style="font-size: 90px;">con VestHouse</span>
+                <span style="font-size: 90px;">With VestHouse</span>
             </div>
         </div>
     </section>
@@ -60,9 +67,9 @@
                         <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
                     </div>
                     <div style="padding-left: 30px;">
-                        <p>Direccion: xxxx</p>
-                        <p>Precio: xxxx</p>
-                        <p>Fracciones disponibles: xxxx</p>
+                        <p>Address: xxxx</p>
+                        <p>Price: xxxx</p>
+                        <p>Available fractions: xxxx</p>
                     </div>
                 </div>
             </div>
@@ -72,35 +79,9 @@
                         <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
                     </div>
                     <div style="padding-left: 30px;">
-                        <p>Direccion: xxxx</p>
-                        <p>Precio: xxxx</p>
-                        <p>Fracciones disponibles: xxxx</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div style="display: flex; padding-bottom: 30px; padding-top: 30px;">
-            <div style="flex: 1;">
-                <div class="border-blue card-properties">
-                    <div>
-                        <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
-                    </div>
-                    <div style="padding-left: 30px;">
-                        <p>Direccion: xxxx</p>
-                        <p>Precio: xxxx</p>
-                        <p>Fracciones disponibles: xxxx</p>
-                    </div>
-                </div>
-            </div>
-            <div style="flex: 1;">
-                <div class="border-blue card-properties">
-                    <div>
-                        <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
-                    </div>
-                    <div style="padding-left: 30px;">
-                        <p>Direccion: xxxx</p>
-                        <p>Precio: xxxx</p>
-                        <p>Fracciones disponibles: xxxx</p>
+                        <p>Address: xxxx</p>
+                        <p>Price: xxxx</p>
+                        <p>Available fractions: xxxx</p>
                     </div>
                 </div>
             </div>
@@ -112,9 +93,9 @@
                         <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
                     </div>
                     <div style="padding-left: 30px;">
-                        <p>Direccion: xxxx</p>
-                        <p>Precio: xxxx</p>
-                        <p>Fracciones disponibles: xxxx</p>
+                        <p>Address: xxxx</p>
+                        <p>Price: xxxx</p>
+                        <p>Available fractions: xxxx</p>
                     </div>
                 </div>
             </div>
@@ -124,9 +105,35 @@
                         <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
                     </div>
                     <div style="padding-left: 30px;">
-                        <p>Direccion: xxxx</p>
-                        <p>Precio: xxxx</p>
-                        <p>Fracciones disponibles: xxxx</p>
+                        <p>Address: xxxx</p>
+                        <p>Price: xxxx</p>
+                        <p>Available fractions: xxxx</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; padding-bottom: 30px; padding-top: 30px;">
+            <div style="flex: 1;">
+                <div class="border-blue card-properties">
+                    <div>
+                        <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
+                    </div>
+                    <div style="padding-left: 30px;">
+                        <p>Address: xxxx</p>
+                        <p>Price: xxxx</p>
+                        <p>Available fractions: xxxx</p>
+                    </div>
+                </div>
+            </div>
+            <div style="flex: 1;">
+                <div class="border-blue card-properties">
+                    <div>
+                        <img class="image-properties" src="/assets/invest_house.png" style="width: 100%;" alt="">
+                    </div>
+                    <div style="padding-left: 30px;">
+                        <p>Address: xxxx</p>
+                        <p>Price: xxxx</p>
+                        <p>Available fractions: xxxx</p>
                     </div>
                 </div>
             </div>
@@ -135,10 +142,10 @@
     <section id="section-contact" class="background-blue font-white" style="display: flex;">
         <div style="flex: 1; padding: 5%;  text-align: center;">
             <img src="/assets/logo_dark.png" alt="">
-            <p>Sé parte de una comunidad, crece tu patrimonio y construye tu futuro</p>
+            <p>Be part of a community, grow your wealth, and build your future.</p>
         </div>
         <div class="text-center" style="flex: 1; padding-top: 5%;">
-            <span>Contáctanos</span>
+            <span>Contact us.</span>
             <br>
             <input type="text" id="input-contact" placeholder="Dejanos tu correo">
             <div style="display: flex; padding-left: 18%; padding-right: 18%; padding-top: 13px;">
