@@ -22,8 +22,12 @@ body {
     height: 60px;
     width: 129px
 }
-.circle-step{
-    margin-top: -18px; margin-left: 12px; padding-left: 30px; padding-right: 30px;
+
+.circle-step {
+    margin-top: -18px;
+    margin-left: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #second-option-menu {
@@ -52,6 +56,21 @@ body {
 
 .font-color-secunday {
     color: #494747;
+}
+
+.about-border-rigth {
+    border-right: 1px solid white;
+}
+
+.about-border-left {
+    border-left: 1px solid white;
+}
+
+.circle-white {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
 }
 
 .card-items {
@@ -410,7 +429,8 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.overandunderline{
+
+.overandunderline {
     text-decoration-line: underline overline
 }
 
@@ -448,11 +468,10 @@ body {
     }
 
     .mobile-image {
-        max-width: 50%; 
+        max-width: 50%;
     }
 
     .text-content {
         padding: 0 10%;
     }
 }
-
