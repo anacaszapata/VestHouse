@@ -28,7 +28,7 @@
     gap: 7%;
 }
 
-.button-secunday{
+.button-secunday {
     border: none;
     border: 1px solid #09335f;
     background-color: white;
@@ -37,3 +37,23 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.box-shadow {
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.post-class{
+    width: 60%;
+    border-radius: 10px;
+    
+}
+
+.post-recomended{
+    transition: transform 0.6s ease;
+}
+.post-recomended:hover{
+    transform: scale(1.2);
+}
+
