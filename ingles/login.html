@@ -20,11 +20,11 @@
                 </label>
 
                 <ul class="menu__box">
-                    <li><a class="menu__item" href="/index.html">inicio</a></li>
-                    <li><a class="menu__item" href="/about_us.html">Sobre nostros</a></li>
-                    <li><a class="menu__item" href="/paso_a_paso.html">Pasos</a></li>
-                    <li><a class="menu__item" href="/propiedades.html">Propiedades</a></li>
-                    <li><a class="menu__item" href="/blog.html">Blog</a></li>
+                    <li><a class="menu__item" href="/ingles/index.html">Home</a></li>
+                    <li><a class="menu__item" href="/ingles/about_us.html">About us</a></li>
+                    <li><a class="menu__item" href="/ingles/paso_a_paso.html">Step by Step</a></li>
+                    <li><a class="menu__item" href="/ingles/propiedades.html">Properties</a></li>
+                    <li><a class="menu__item" href="/ingles/blog.html">Blog</a></li>
                 </ul>
             </div>
             <a href="index.html">
@@ -33,18 +33,24 @@
             </a>
         </div>
         <ul class="font-color-secunday">
-            <a class="font-color-secunday" href="#">ESPAÑOL</a>
-            <a class="font-color-secunday"
-                style="margin-left: 10px; border-left: solid 1px #494747; padding-right: 10px; border-right: solid 1px #494747; padding-left: 10px; margin-right: 10px;"
-                href="/login.html">INICIAR / REGISTRARSE</a>
-            <a class="font-color-secunday" href="#section-contact">CONTACTO</a>
+            <div class="dropdown">
+                <div class="dropbtn font-color-secunday">
+                    <span>LANGUAGE</span>
+                </div>
+                <div class="dropdown-content">
+                    <a href="/index.html">Spanish</a>
+                    <a href="#">English</a>
+                </div>
+            </div>
+            <a id="second-option-menu" class="font-color-secunday" href="/login.html">START / REGISTER</a>
+            <a class="font-color-secunday" href="#section-contact">CONTACT</a>
         </ul>
     </nav>
     <section style="margin-top: 60px;">
         <div class="contenedor-login">
             <div class="informacion-contenedor-login">
                 <img src="/assets/logo negro.png" alt="logo" width="300">
-                <h3 class="subtitulo">Ingresa con:</h3>
+                <h3 class="subtitulo">Log in with:</h3>
                 <div class="social-login">
                     <div class="social-login-elemento">
                         <img src="/assets/google.png" alt="google">
@@ -57,11 +63,11 @@
                 </div>
                 <p class="parrad">or</p>
                 <form class="inputs-contenedores">
-                    <input type="text" name="username" class="input" placeholder="Ingrese su usuario">
-                    <input type="password" name="password" class="input" placeholder="Ingrese su contraseña">
-                    <span class="span">¿Olvidaste tu contraseña?</span>
-                    <button class="btn">Ingresa</button>
-                    <a href="#" class="span">¿No tienes una cuenta?<span> Registrate</span></a>
+                    <input type="text" name="username" class="input" placeholder="Username">
+                    <input type="password" name="password" class="input" placeholder="Password">
+                    <span class="span">Did you forget your password?</span>
+                    <button class="btn">Login</button>
+                    <a href="#" class="span">Don't have an account?<span> Register</span></a>
                 </form>
             </div>
         </div>

@@ -11,8 +11,7 @@
 </head>
 
 <body style="margin: 0;">
-    <navbar
-        style="display: flex; align-items: center; justify-content: space-between; padding-right: 20px; padding-top: 10px;">
+    <nav class="nav_menu">
         <div style="display: flex; gap: 5px;">
             <div class="hamburger-menu">
                 <input id="menu__toggle" type="checkbox" />
@@ -21,15 +20,15 @@
                 </label>
 
                 <ul class="menu__box">
-                    <li><a class="menu__item" href="/index.html">Inicio</a></li>
-                    <li><a class="menu__item" href="/about_us.html">Sobre nostros</a></li>
-                    <li><a class="menu__item" href="/paso_a_paso.html">Paso a Paso</a></li>
-                    <li><a class="menu__item" href="/propiedades.html">Propiedades</a></li>
-                    <li><a class="menu__item" href="/blog.html">Blog</a></li>
+                    <li><a class="menu__item" href="./index.html">Inicio</a></li>
+                    <li><a class="menu__item" href="./about_us.html">Sobre nosotros</a></li>
+                    <li><a class="menu__item" href="./paso_a_paso.html">Paso a Paso</a></li>
+                    <li><a class="menu__item" href="./propiedades.html">Propiedades</a></li>
+                    <li><a class="menu__item" href="./blog.html">Blog</a></li>
                 </ul>
             </div>
             <a href="index.html">
-                <img id="img-logo" src="/assets/logo_clear.png" alt="Logo">
+                <img id="img-logo" src="./assets/logo_clear.png" alt="Logo">
             </a>
         </div>
         <ul class="font-color-secunday">
@@ -39,27 +38,27 @@
                 </div>
                 <div class="dropdown-content">
                     <a href="#">Español</a>
-                    <a href="#">Inglés</a>
+                    <a href="./ingles/index.html">Inglés</a>
                 </div>
             </div>
-            <a id="second-option-menu" class="font-color-secunday" href="/login.html">INICIAR / REGISTRARSE</a>
+            <a id="second-option-menu" class="font-color-secunday" href="./login.html">INICIAR / REGISTRARSE</a>
             <a class="font-color-secunday" href="#section-contact">CONTACTO</a>
         </ul>
-    </navbar>
+    </nav> 
 
     <!-- titulo -->
     <section class="section-blue">
         <div style="display: flex; text-align: center; ">
             <div
-                style="flex: 50%; color: #fff; padding-top: 5%; padding-right: 10%; padding-left: 10%;padding-bottom: 5%">
-                <i style="font-size: 35px;">Las mejores propiedades para invertir</i>
+                style="flex: 50%; color: #fff; padding: 10% 0; ">
+                <span style="font-size: 35px;">Las mejores propiedades para invertir</span>
                 <br>
                 <strong style="font-size: 90px;">con VestHouse</strong>
             </div>
         </div>
     </section>
     <!-- Properties -->
-    <section >
+    <section style="margin: 50px auto; width: 80%;">
         <div style="display: flex; padding-bottom: 30px; padding-top: 30px;">
             <div style="flex: 1;">
                 <div class="border-blue card-properties">
@@ -135,33 +134,29 @@
     </section>
     <section id="section-contact" class="background-blue font-white" style="display: flex;">
         <div style="flex: 1; padding: 5%;  text-align: center;">
-            <img src="/assets/logo_dark.png" alt="">
-            <p>Se parte de una comunidad, crece tu patrimonio y construye tu futuro</p>
+            <img src="./assets/logo_dark.png" alt="" width="200">
+            <p>Sé parte de una comunidad, crece <br/> tu patrimonio y construye tu futuro</p>
         </div>
         <div class="text-center" style="flex: 1; padding-top: 5%;">
-            <span>Contáctanos</span>
+            <span class="">Contáctanos</span>
             <br>
             <input type="text" id="input-contact" placeholder="Déjanos tu correo">
-            <div style="display: flex; padding-left: 18%; padding-right: 18%; padding-top: 13px;">
+            <div style="display: flex; padding-left: 18%; padding-right: 18%; padding-top: 13px; margin-top: 20px;">
                 <div style="flex: 1; ">
                     <a style="text-decoration: none; color: white;" href="mailto:vesthouseinvestments@gmail.com">
-                        <img src="assets/email.png" style="width: 40px; height: 30px;" alt="">
-                        <span>Email</span>
+                        <span class="redes-sociales">Email</span>
                     </a>
                 </div>
                 <div style="flex: 1; border-right: solid white; border-left: solid white;">
-                    <a style="color: white; text-decoration: none;"
-                        target="_blank"
+                    <a style="color: white; text-decoration: none;" target="_blank"
                         href="https://www.instagram.com/vesthouse.investment/">
-                        <img src="assets/instagram.png" style="width: 40px; height: 36px;" alt="">
-                        <span>instagram</span>
+                        <span class="redes-sociales">Instagram</span>
                     </a>
                 </div>
                 <div style="flex: 1;">
                     <!-- 3003120424 -->
                     <a style="color: white; text-decoration: none;" href="https://wa.link/9bn420">
-                        <img target="_blank" src="assets/wpp.png" style="width: 40px; height: 36px;" alt="">
-                        <span style="padding-bottom: 20px;">whatsapp</span>
+                        <span class="redes-sociales">Whatsapp</span>
                     </a>
                 </div>
             </div>

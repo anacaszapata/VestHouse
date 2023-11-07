@@ -6,17 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/nav.css">
 </head>
 
 <body style="margin: 0;">
-    <nav class="navbar">
+    <nav
+        style="display: flex; align-items: center; justify-content: space-between; padding-right: 20px; padding-top: 10px;">
+        <div style="display: flex; gap: 5px;">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="/ingles/index.html">Home</a></li>
+                    <li><a class="menu__item" href="/ingles/about_us.html">About us</a></li>
+                    <li><a class="menu__item" href="/ingles/paso_a_paso.html">Step by Step</a></li>
+                    <li><a class="menu__item" href="/ingles/propiedades.html">Properties</a></li>
+                    <li><a class="menu__item" href="/ingles/blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <a href="index.html">
+                <img style="margin-left: 30px; height: 60px; width: 129px" id="img-logo" src="/assets/logo_clear.png"
+                    alt="Logo">
+            </a>
+        </div>
         <ul class="font-color-secunday">
-            <img id="img-logo" src="/assets/logo_clear.png" alt="Logo">
-            <a class="font-color-secunday" href="#">MENÚ</a>
-            <a class="font-color-secunday" href="#">ESPAÑOL</a>
-            <a class="font-color-secunday" href="#">INICIAR / REGISTRARSE</a>
-            <a class="font-color-secunday" href="#section-contact">CONTACTO</a>
-            <a class="font-color-secunday" href="./about_us.html">SOBRE NOSTROS</a>
+            <div class="dropdown">
+                <div class="dropbtn font-color-secunday">
+                    <span>LANGUAGE</span>
+                </div>
+                <div class="dropdown-content">
+                    <a href="/index.html">Spanish</a>
+                    <a href="#">English</a>
+                </div>
+            </div>
+            <a id="second-option-menu" class="font-color-secunday" href="/login.html">START / REGISTER</a>
+            <a class="font-color-secunday" href="#section-contact">CONTACT</a>
         </ul>
     </nav>
     <section>
@@ -34,9 +61,9 @@
                         <strong style="color: white;">1</strong>
                     </div>
                     <div class="border-blue border-radius circle-step">
-                        <p>Explora nuestras propiedades:
-                            En nuestra página podrás encontrar distintas propiedades,
-                            en donde podrás ver los detalles de esta, ya sean fotos de la casa, precios y su ubicación.
+                        <p>Explore our properties:
+                            On our website, you can find various properties where you can view their details, 
+                            including photos of the house, prices, and their location.
                         </p>
                     </div>
                 </div>
@@ -45,9 +72,8 @@
                         <strong style="color: white;">2</strong>
                     </div>
                     <div class="border-blue border-radius circle-step">
-                        <p>Selecciona la propiedad de tu gusto:
-                            Luego de ver los detalles de las propiedades y elegir la que más te guste,
-                            puedes contactarnos por whatsapp o correo electrónico.
+                        <p>Select the property of your choice: 
+                            After reviewing the property details and choosing your favorite, you can contact us via WhatsApp or email.
                         </p>
                     </div>
                 </div>
@@ -61,7 +87,7 @@
 
         <section style="text-align: center; padding-left: 5%; padding-right: 5%;" class="background-blue font-white">
             <div style="flex: 1;">
-                <h1 class="big-title">¿Por qué invertir en VestHouse?</h1>
+                <h1 class="big-title">Why invest in VestHouse?</h1>
             </div>
             <div style="padding-bottom: 80px;">
 
@@ -74,47 +100,47 @@
     </section>
     <section>
         <div style="text-align: center;">
-            <h1 class="big-title font-blue">Nuevas propiedades con VestHouse!</h1>
+            <h1 class="big-title font-blue underline">New properties with VestHouse!</h1>
         </div>
-        <div style="margin-left: 10%; margin-right: 10%;">
+        <div style="margin-left: 30%; margin-right: 30%;">
             <div class="carousel" style="border-radius: 10px;">
                 <div class="carousel-inner">
                     <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true"
                         hidden="" checked="checked">
                     <div class="carousel-item">
-                        <img src="/assets/invest_house.png">
+                        <img src="/assets/houses/casa1.jpeg">
                         <div class="font-blue footer-carrousel">
-                            <span>Direccion: casa 12</span>
+                            <span>Address: Rionegro, Antioquia</span>
                             <br>
-                            <span>Precio: 1000.000.000</span>
+                            <span>Price: 700.000.000</span>
                             <br>
-                            <span>Fracciones disponibles: xxxx</span>
+                            <span>Available fractions: 324</span>
                             <br>
                         </div>
                     </div>
                     <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"
                         hidden="">
                     <div class="carousel-item">
-                        <img src="/assets/robert.png">
+                        <img src="/assets/houses/casa2.jpeg">
                         <div class="font-blue footer-carrousel">
-                            <span>Direccion: penthouse</span>
+                            <span>Address: Envigado, Antioquia</span>
                             <br>
-                            <span>Precio: 8.000.000.000</span>
+                            <span>Price: 490.000.000</span>
                             <br>
-                            <span>Fracciones disponibles: xxxx</span>
+                            <span>Available fractions: 87</span>
                             <br>
                         </div>
                     </div>
                     <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true"
                         hidden="">
                     <div class="carousel-item">
-                        <img src="/assets/invest_house.png">
+                        <img src="/assets/houses/casa3.jpeg">
                         <div class="font-blue footer-carrousel">
-                            <span>Direccion: carrera 50394</span>
+                            <span>Address: San Jerónimo, Antioquia</span>
                             <br>
-                            <span>Precio: 90.505.959</span>
+                            <span>Price: 900.505.959</span>
                             <br>
-                            <span>Fracciones disponibles: xxxx</span>
+                            <span>Available fractions: 541</span>
                             <br>
                         </div>
                     </div>
@@ -147,10 +173,10 @@
     <section id="section-contact" class="background-blue font-white" style="display: flex;">
         <div style="flex: 1; padding: 5%;  text-align: center;">
             <img src="/assets/logo_dark.png" alt="">
-            <p>Sé parte de una comunidad, crece tu patrimonio y construye tu futuro</p>
+            <p>Be part of a community, grow your assets, and build your future.</p>
         </div>
         <div class="text-center" style="flex: 1; padding-top: 5%;">
-            <span>Contáctanos</span>
+            <span>Contact us</span>
             <br>
             <input type="text" id="input-contact" placeholder="Dejanos tu correo">
             <div style="display: flex; padding-left: 18%; padding-right: 18%; padding-top: 13px;">

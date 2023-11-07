@@ -21,11 +21,11 @@
                 </label>
 
                 <ul class="menu__box">
-                    <li><a class="menu__item" href="/index.html">inicio</a></li>
-                    <li><a class="menu__item" href="/about_us.html">Sobre nostros</a></li>
-                    <li><a class="menu__item" href="/paso_a_paso.html">Pasos</a></li>
-                    <li><a class="menu__item" href="/propiedades.html">Propiedades</a></li>
-                    <li><a class="menu__item" href="/blog.html">Blog</a></li>
+                    <li><a class="menu__item" href="/ingles/index.html">Home</a></li>
+                    <li><a class="menu__item" href="/ingles/about_us.html">About us</a></li>
+                    <li><a class="menu__item" href="/ingles/paso_a_paso.html">Step by Step</a></li>
+                    <li><a class="menu__item" href="/ingles/propiedades.html">Properties</a></li>
+                    <li><a class="menu__item" href="/ingles/blog.html">Blog</a></li>
                 </ul>
             </div>
             <a href="index.html">
@@ -34,11 +34,17 @@
             </a>
         </div>
         <ul class="font-color-secunday">
-            <a class="font-color-secunday" href="#">ESPAÑOL</a>
-            <a class="font-color-secunday"
-                style="margin-left: 10px; border-left: solid 1px #494747; padding-right: 10px; border-right: solid 1px #494747; padding-left: 10px; margin-right: 10px;"
-                href="/login.html">INICIAR / REGISTRARSE</a>
-            <a class="font-color-secunday" href="#section-contact">CONTACTO</a>
+            <div class="dropdown">
+                <div class="dropbtn font-color-secunday">
+                    <span>LANGUAGE</span>
+                </div>
+                <div class="dropdown-content">
+                    <a href="/index.html">Spanish</a>
+                    <a href="#">English</a>
+                </div>
+            </div>
+            <a id="second-option-menu" class="font-color-secunday" href="/login.html">START / REGISTER</a>
+            <a class="font-color-secunday" href="#section-contact">CONTACT</a>
         </ul>
     </navbar>
     <section>
@@ -46,11 +52,11 @@
             <div style="background-color: #eceff2; display: flex; margin-top: 50px; width: 100%;">
                 <div style="flex: 1; padding-left: 50px;">
                     <h1 class="big-title font-blue" style="text-decoration-line: underline;">
-                        Aqui encontrarás
+                        Here you will find
                     </h1>
-                    <p>Las mejores estrategias de inversión, oportunidades de crecimiento y rentabilidad en el mercado
-                        actual, además encontraras un apoyo educativo, con el cual queremos, que entiendas lo necesario
-                        que es en la actualidad tener una inversión en tu nombre.</p>
+                    <p>Here you will find the best investment strategies, growth opportunities, and profitability in the current market. 
+                        You will also find educational support, through which we aim for you to understand how essential it is nowadays 
+                        to have an investment in your name.</p>
                 </div>
                 <div style="flex: 2; background-color: #eceff2;"></div>
                 <div class="blue-box">
@@ -64,18 +70,18 @@
                 <div class="display text-center"
                     style="margin-left: 10%; font-size: 20px; padding-left: 5%; padding-right: 10%;">
                     <div class="flex-1">
-                        <span class="font-blue underline">Academia</span>
+                        <span class="font-blue underline">Academy</span>
                     </div>
                     <div class="flex-1">
                         <span class="font-blue">Post</span>
                     </div>
                     <div class="flex-1">
-                        <span class="font-blue">Recomendados</span>
+                        <span class="font-blue">Recommended</span>
                     </div>
                 </div>
                 <div style="align-items: center;" class="text-center">
                     <div id="timer" class="font-white" style="margin-left: 23%; margin-right: 10%;">
-                        <p style="font-size: 20px;">Aprende los beneficios y riesgos mas importantes del mercado</p>
+                        <p style="font-size: 20px;">Learn about the most important benefits and risks of the market</p>
                         <div id="timer-child" class="font-blue text-center">
                             <strong style="font-size: 20px; padding-left: 10%;">01</strong>
                             <strong>:</strong>
@@ -86,22 +92,22 @@
                             <strong style="font-size: 20px;">00</strong>
                         </div>
                         <div style="display: flex; gap: 14%; padding-left: 12%; font-size: 10px;">
-                            <span>Dias</span>
-                            <span>Horas</span>
-                            <span>Minutos</span>
-                            <span>Segundos</span>
+                            <span>Days</span>
+                            <span>Hours</span>
+                            <span>Minutes</span>
+                            <span>Seconds</span>
                         </div>
                     </div>
                 </div>
                 <div class="text-center">
-                    <button class="button-secunday">inscribte ahora</button>
-                    <span>Te esperamos en el Webinar!</span>
+                    <button class="button-secunday">Register now</button>
+                    <span>We look forward to seeing you at the webinar!</span>
                 </div>
             </div>
             <!-- Vacio -->
             <div class="flex-1" style="flex-direction: column;">
-                <h1 class="font-blue underline">¿Tienes alguna duda?</h1>
-                <p class="font-blue">¡Escribenos!</p>
+                <h1 class="font-blue underline">Do you have any questions?</h1>
+                <p class="font-blue">Contact us!</p>
                 <br>
                 <div>
                     <a class="font-blue" style="text-decoration: none;" href="mailto:vesthouseinvestments@gmail.com">
@@ -130,37 +136,36 @@
     <section style="background-color: #eceff2;">
         <div style="display: flex;">
             <div class="flex-1 text-center" style="border-right: 1px solid #09335f; margin-top: 30px;">
-                <strong class="big-title font-blue underline">Según encuestas</strong>
-                <p style="padding-left: 10%; padding-right: 5%;">El tema central de esta encuesta fue conocer
-                    directamente a profundidad que pensaba la mayoria de la poblacion, acerca de conocimientos
-                    financieros y si estaban dispuestos</p>
+                <strong class="big-title font-blue underline">Based on surveys</strong>
+                <p style="padding-left: 10%; padding-right: 5%;">The central theme of this survey was to directly 
+                    understand in depth what the majority of the population thought about financial knowledge and whether they were willing</p>
             </div>
             <div class="flex-1 text-center">
                 <div style="display: flex;">
                     <div class="flex-1" style="margin-top: 30px; margin-left: 30px;">
-                        <h2>Cuando piensas invertir en lo que piensas hacer?</h2>
+                        <h2>When do you plan to invest in what you're thinking of doing?</h2>
                         <div class="background-blue" style="border-radius: 5px; margin-left: 10%; margin-right: 10%;">
-                            <p class="font-white" style="padding-top: 8px; padding-bottom: 8px;">52% en vivienda</p>
+                            <p class="font-white" style="padding-top: 8px; padding-bottom: 8px;">52% in housing</p>
                         </div>
                     </div>
                     <div class="flex-1" style="margin-top: 30px; margin-left: 30px;">
-                        <h2>Cuando piensas invertir en lo que piensas hacer?</h2>
+                        <h2>Do you know what Crowdfunding is? What do you know about it?</h2>
                         <div class="background-blue" style="border-radius: 5px; margin-left: 10%; margin-right: 10%;">
-                            <p class="font-white" style="padding-top: 8px; padding-bottom: 8px;">52% en vivienda</p>
+                            <p class="font-white" style="padding-top: 8px; padding-bottom: 8px;">0%</p>
                         </div>
                     </div>
                 </div>
                 <div style="display: flex;">
                     <div class="flex-1" style="margin-top: 30px; margin-left: 30px;">
-                        <h2>Cuando piensas invertir en lo que piensas hacer?</h2>
+                        <h2>Do you feel that you lack financial education?</h2>
                         <div class="background-blue" style="border-radius: 5px; margin-left: 10%; margin-right: 10%;">
-                            <p class="font-white" style="padding-top: 8px; padding-bottom: 8px;">52% en vivienda</p>
+                            <p class="font-white" style="padding-top: 8px; padding-bottom: 8px;">100%</p>
                         </div>
                     </div>
                     <div class="flex-1" style="margin-top: 30px; margin-left: 30px;">
-                        <h2>Cuando piensas invertir en lo que piensas hacer?</h2>
+                        <h2>Would you feel confident in having a virtual investment?</h2>
                         <div class="background-blue" style="border-radius: 5px; margin-left: 10%; margin-right: 10%;">
-                            <p class="font-white" style="padding-top: 8px; padding-bottom: 8px;">52% en vivienda</p>
+                            <p class="font-white" style="padding-top: 8px; padding-bottom: 8px;">53% in housing</p>
                         </div>
                     </div>
                 </div>

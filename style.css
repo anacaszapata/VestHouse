@@ -55,7 +55,12 @@ body {
 }
 
 .font-color-secunday {
+    text-decoration: none;
     color: #494747;
+}
+
+.font-color-secunday a:hover {
+    text-decoration: underline;
 }
 
 .about-border-rigth {
@@ -76,15 +81,15 @@ body {
 .card-items {
     background-color: #eff1f4;
     border-radius: 10px;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin: 0 20px;
     transition: transform 0.6s ease;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-height: 400px;
+    height: 100%;
 }
-
 
 .card-items:hover {
     transform: scale(1.2);
@@ -97,7 +102,10 @@ body {
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    margin-top: 2%;
+    /* margin-top: 2%; */
+    margin: 100px 0;
+    width: 80%;
+    margin: 100px auto;
 }
 
 .section-blue {
@@ -106,7 +114,7 @@ body {
 }
 
 select {
-    width: 60%;
+    width: 100%;
     height: 45px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -139,11 +147,10 @@ select {
 .card-simulator {
     margin-left: 13%;
     margin-right: 13%;
-    margin-top: 10%;
+    margin-top: 50px;
     background-color: #eff1f4;
     border-radius: 10px;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding: 6% !important;
     color: #09335f;
     padding-top: 5px;
     padding-bottom: 30px;
@@ -152,7 +159,7 @@ select {
 .card-info-simulator {
     display: flex;
     border-top: 1px solid #09335f;
-    padding-top: 30px;
+    padding-top: 27px;
     padding-bottom: 20px;
 
 }
@@ -178,7 +185,7 @@ select {
 }
 
 .big-title {
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .footer-carrousel {
@@ -190,6 +197,7 @@ select {
 #input-contact {
     margin-top: 10px;
     width: 50%;
+    padding: 5px 10px;
     border-radius: 6px;
     height: 30px;
     border: none;
@@ -434,8 +442,28 @@ body {
     text-decoration-line: underline overline
 }
 
+.mobile-layout{
+    width: 80%;
+    margin: 0 auto;
+}
 
+.text-content {
+    width: 40%;
+    padding: 5% !important;
+}
 
+.simula_inversion {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.preguntas:hover {
+    text-decoration: underline;
+}
+
+.redes-sociales:hover{
+    text-decoration: underline;
+}
 /* Estilos para dispositivos móviles con una anchura máxima de 768px */
 @media (max-width: 768px) {
     .section-blue {
@@ -465,6 +493,7 @@ body {
     .mobile-layout {
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .mobile-image {
