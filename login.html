@@ -6,10 +6,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="/nav.css">
+    <link rel="stylesheet" href="login.css">
 
 </head>
 <body style="margin: 0;">
-    <navbar
+    <nav
         style="display: flex; align-items: center; justify-content: space-between; padding-right: 20px; padding-top: 10px;">
         <div style="display: flex; gap: 5px;">
             <div class="hamburger-menu">
@@ -38,6 +39,32 @@
                 href="/login.html">INICIAR / REGISTRARSE</a>
             <a class="font-color-secunday" href="#section-contact">CONTACTO</a>
         </ul>
-    </navbar>
+    </nav>
+    <section style="margin-top: 60px;">
+        <div class="contenedor-login">
+            <div class="informacion-contenedor-login">
+                <img src="/assets/logo negro.png" alt="logo" width="300">
+                <h3 class="subtitulo">Ingresa con:</h3>
+                <div class="social-login">
+                    <div class="social-login-elemento">
+                        <img src="/assets/google.png" alt="google">
+                        <span>Google</span>
+                    </div>
+                    <div class="social-login-elemento">
+                        <img src="/assets/facebook.svg" alt="Facebook">
+                        <span>Facebook</span>
+                    </div>
+                </div>
+                <p class="parrad">or</p>
+                <form class="inputs-contenedores">
+                    <input type="text" name="username" class="input" placeholder="Ingrese su usuario">
+                    <input type="password" name="password" class="input" placeholder="Ingrese su contraseña">
+                    <span class="span">¿Olvidaste tu contraseña?</span>
+                    <button class="btn">Ingresa</button>
+                    <a href="#" class="span">¿No tienes una cuenta?<span> Registrate</span></a>
+                </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
