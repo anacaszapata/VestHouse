@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <navbar
+        style="display: flex; align-items: center; justify-content: space-between; padding-right: 20px; padding-top: 10px;">
+        <div style="display: flex; gap: 5px;">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="/index.html">Inicio</a></li>
+                    <li><a class="menu__item" href="/about_us.html">Sobre nostros</a></li>
+                    <li><a class="menu__item" href="/paso_a_paso.html">Paso a Paso</a></li>
+                    <li><a class="menu__item" href="/propiedades.html">Propiedades</a></li>
+                    <li><a class="menu__item" href="/blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <a href="index.html">
+                <img id="img-logo" src="/assets/logo_clear.png" alt="Logo">
+            </a>
+        </div>
+        <ul class="font-color-secunday">
+            <div class="dropdown">
+                <div class="dropbtn font-color-secunday">
+                    <span>IDIOMA </span>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Español</a>
+                    <a href="#">Inglés</a>
+                </div>
+            </div>
+            <a id="second-option-menu" class="font-color-secunday" href="/login.html">INICIAR / REGISTRARSE</a>
+            <a class="font-color-secunday" href="#section-contact">CONTACTO</a>
+        </ul>
+    </navbar> 
+
+    <!-- imagen principal -->
+    <section>
+        <img width="100%" src="/assets/invest_house.png" alt="">
+    </section>
+
+    <!-- MVP -->
+    <section class="card-section">
+        <div style="flex: 1;">
+            <div class="card-items">
+                <h1 class="underline">Misión</h1>
+                <p>Somos una empresa digital enfocada en construir una comunidad de inversionistas que buscan aumentar su patrimonio a través de 
+                    oportunidades de inversión innovadoras y educación financiera. Nuestra misión es llegar a una amplia audiencia interesada en 
+                    diversificar sus inversiones, especialmente en bienes raíces, a través de crowdfunding y la venta de propiedades, 
+                    facilitando el acceso a oportunidades de invertir desde bajos montos.</p>
+            </div>
+        </div>
+        <div style="flex: 1;">
+            <div class="card-items">
+                <h1 class="underline">Visión</h1>
+                <p>Ser líder mundial en la democratización de la inversión, brindando acceso equitativo a oportunidades de adquisición 
+                    inmobiliaria en diversos sectores y regiones, fomentando la educación financiera en nuestros seminarios, impulsando 
+                    la innovación en el financiamiento colaborativo y transformando la forma en que las personas invierten. 
+                    Nuestra visión es crear un mundo en el que cualquier persona pueda participar en el crecimiento económico y desarrollo 
+                    sostenible a través de inversiones accesibles y rentables, inspirando confianza, transparencia, inclusión financiera y 
+                    responsabilidad social a nivel global.</p>
+            </div>
+        </div>
+        <div style="flex: 1; ">
+            <div class="card-items">
+                <h1 class="underline">Proposito</h1>
+                <p>Facilitar el acceso a viviendas a través de la venta de propiedades y fracciones, ofreciendo oportunidades de adquisición 
+                    de bienes raíces a un público diverso y amplio.</p>
+            </div>
+        </div>
+    </section>
+    <!-- photo -->
+    <section class="section-blue">
+        <div class="mobile-layout">
+            <img src="/assets/robert.png" alt="" class="mobile-image">
+            <div class="text-content">
+                <span class="font-white" style="font-size: 40px;">Robert Kiyosaki</span>
+                <p style="color: white; margin-top: -12px;">________________________________</p>
+                <br>
+                <span class="font-white">La inversión en bienes raíces, incluso en una escala muy pequeña, sigue siendo un medio probado verdadero de construir la riqueza de un individuo.</span>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+    <section style="display: flex; text-align: center; margin-bottom: 30px">
+        <div style="flex: 1;  ">
+            <h1 class="underline" style="font-size: 50px; color: #09335f;">Simula tu inversión</h1>
+            <section style="flex-direction: column;">
+                <select>
+                    <option value="" disabled selected hidden>Selecciona tu proyecto</option>
+                    <option value="">Rionegro</option>
+                    <option value="">Envigado</option>
+                    <option value="">San Jerónimo</option>
+                    
+                </select>
+                <br>
+                <select>
+                    <option value="" disabled selected hidden>¿Cuanto quieres invertir?</option>
+                    <option value="">1.000.000</option>
+                    <option value="">2.000.000</option>
+                    <option value="">3.000.000</option>
+                    <option value="">4.000.000</option>
+                    <option value="">5.000.000</option>
+
+
+                </select>
+                <br>
+                <select>
+                    <option value="" disabled selected hidden>¿Por cuanto tiempo desas invertir</option>
+                    <option value="">3 mes</option>
+                    <option value="">6 mes</option>
+                    <option value="">9 mes</option>
+                    <option value="">1 año</option>
+                    <option value="">3 años</option>
+                </select>
+                <br>
+
+                <label><input type="checkbox" id="cbox1" value="first_checkbox" /> Acepto lo terminos y condiciones de
+                    la politica de tratamiento de datos
+                </label>
+                <br>
+                <br>
+                <br>
+                <button class="button-primary">Enviar</button>
+                <br>
+            </section>
+        </div>
+        <div style="flex: 1;">
+            <div class="card-simulator">
+                <h2>1 año</h2>
+                <div class="card-info-simulator">
+                    <div style="flex: 1; text-align: start;">
+                        <span>Inversionista</span>
+                        <br>
+                        <span>xxx</span>
+                    </div>
+                    <div style="flex: 2; text-align: end;">
+                        <span>Inversion inicial</span>
+                        <br>
+                        <span><strong>xxxxxxxxxx</strong></span>
+                    </div>
+                </div>
+                <div class="card-info-simulator">
+                    <div style="flex: 2; text-align: start; font-size: 15px;">
+                        <p>% retorno estimado anual</p>
+                        <p>$ retorno estimado anual</p>
+                        <p>$ retorno estimado acumulado</p>
+                    </div>
+                    <div style="flex: 1; text-align: start;">
+                    </div>
+                    <div>
+                        <p>xx%</p>
+                        <p>xx</p>
+                        <p>xxxxx</p>
+                    </div>
+                </div>
+                <button class="button-primary">Enviar</button>
+            </div>
+        </div>
+    </section>
+    <section style="display: flex;" class="font-white background-blue">
+        <div style="flex: 1; padding-left: 20%; padding-right: 20%;">
+            <h1 style="margin-bottom: 0%;" class="big-title">Preguntas </h1>
+            <h1 style="margin-top: 0%;" class="big-title underline">frecuentes</h1>
+
+            <p style="text-align: start;">No te preocupes, aquí en VestHouse resolvemos todas tus dudas, ¿Tienes
+                alguna?</p>
+        </div>
+        <div style="flex: 2; padding-right: 10%;">
+            <div style="display: flex; padding-top: 40px; margin-bottom: 40px; margin-right: 10px;">
+                <div class="underline" style="flex: 1;"> Inversión</div>
+                <div class="underline" style="flex: 1;"> Riesgos</div>
+                <div class="underline" style="flex: 1;"> Reinversión</div>
+            </div>
+            <p>¿Cómo puedo invertir</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates nostrum consequuntur suscipit,
+                similique at tempora ex veritatis ipsum adipisci officiis qui natus incidunt, unde praesentium fuga
+                consequatur corporis, fugiat magnam.</p>
+        </div>
+    </section>
+    <section>
+        <div style="text-align: center;">
+            <h1 class="big-title font-blue underline">Nuevas propiedades con VestHouse!</h1>
+        </div>
+        <div style="margin-left: 30%; margin-right: 30%;">
+            <div class="carousel" style="border-radius: 10px;">
+                <div class="carousel-inner">
+                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true"
+                        hidden="" checked="checked">
+                    <div class="carousel-item">
+                        <img src="/assets/houses/casa1.jpeg">
+                        <div class="font-blue footer-carrousel">
+                            <span>Direccion: Rionegro, Antioquia</span>
+                            <br>
+                            <span>Precio: 700.000.000</span>
+                            <br>
+                            <span>Fracciones disponibles: 324</span>
+                            <br>
+                        </div>
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"
+                        hidden="">
+                    <div class="carousel-item">
+                        <img src="/assets/houses/casa2.jpeg">
+                        <div class="font-blue footer-carrousel">
+                            <span>Direccion: Envigado, Antioquia</span>
+                            <br>
+                            <span>Precio: 490.000.000</span>
+                            <br>
+                            <span>Fracciones disponibles: 87</span>
+                            <br>
+                        </div>
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true"
+                        hidden="">
+                    <div class="carousel-item">
+                        <img src="/assets/houses/casa3.jpeg">
+                        <div class="font-blue footer-carrousel">
+                            <span>Direccion: San Jerónimo, Antioquia</span>
+                            <br>
+                            <span>Precio: 900.505.959</span>
+                            <br>
+                            <span>Fracciones disponibles: 541</span>
+                            <br>
+                        </div>
+                    </div>
+                    <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                    <label for="carousel-2" class="carousel-control next control-1">›</label>
+                    <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                    <label for="carousel-3" class="carousel-control next control-2">›</label>
+                    <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                    <label for="carousel-1" class="carousel-control next control-3">›</label>
+                    <ol class="carousel-indicators">
+                        <!-- <li>
+                            <label for="carousel-1" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-2" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-3" class="carousel-bullet">•</label>
+                        </li> -->
+                    </ol>
+                </div>
+            </div>
+            <div style="text-align: center; margin: 5%;">
+                <a href="login.html">
+                    <button href="login.html" class="button-primary">Invierte ahora!</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-contact" class="background-blue font-white" style="display: flex;">
+        <div style="flex: 1; padding: 5%;  text-align: center;">
+            <img src="/assets/logo_dark.png" alt="">
+            <p>Sé parte de una comunidad, crece tu patrimonio y construye tu futuro</p>
+        </div>
+        <div class="text-center" style="flex: 1; padding-top: 5%;">
+            <span class="underline">Contáctanos</span>
+            <br>
+            <input type="text" id="input-contact" placeholder="Déjanos tu correo">
+            <div style="display: flex; padding-left: 18%; padding-right: 18%; padding-top: 13px;">
+                <div style="flex: 1; ">
+                    <a style="text-decoration: none; color: white;" href="mailto:vesthouseinvestments@gmail.com">
+                        <img src="assets/email.png" style="width: 40px; height: 30px;" alt="">
+                        <span>Email</span>
+                    </a>
+                </div>
+                <div style="flex: 1; border-right: solid white; border-left: solid white;">
+                    <a style="color: white; text-decoration: none;" target="_blank"
+                        href="https://www.instagram.com/vesthouse.investment/">
+                        <img src="assets/instagram.png" style="width: 40px; height: 36px;" alt="">
+                        <span>instagram</span>
+                    </a>
+                </div>
+                <div style="flex: 1;">
+                    <!-- 3003120424 -->
+                    <a style="color: white; text-decoration: none;" href="https://wa.link/9bn420">
+                        <img target="_blank" src="assets/wpp.png" style="width: 40px; height: 36px;" alt="">
+                        <span style="padding-bottom: 20px;">whatsapp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>   
+</body>
+</html>
