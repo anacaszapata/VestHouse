@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./pop_up.css">
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="utilidades.css">
+
 
 </head>
 
 <body style="margin: 0;">
-    <navbar
-        style="display: flex; align-items: center; justify-content: space-between; padding-right: 20px; padding-top: 10px;">
+    <nav class="nav_menu">
         <div style="display: flex; gap: 5px;">
             <div class="hamburger-menu">
                 <input id="menu__toggle" type="checkbox" />
@@ -22,11 +23,11 @@
                 </label>
 
                 <ul class="menu__box">
-                    <li><a class="menu__item" href="/index.html">Inicio</a></li>
-                    <li><a class="menu__item" href="/about_us.html">Sobre nostros</a></li>
-                    <li><a class="menu__item" href="/paso_a_paso.html">Paso a Paso</a></li>
-                    <li><a class="menu__item" href="/propiedades.html">Propiedades</a></li>
-                    <li><a class="menu__item" href="/blog.html">Blog</a></li>
+                    <li><a class="menu__item" href="./index.html">Inicio</a></li>
+                    <li><a class="menu__item" href="./about_us.html">Sobre nosotros</a></li>
+                    <li><a class="menu__item" href="./paso_a_paso.html">Paso a Paso</a></li>
+                    <li><a class="menu__item" href="./propiedades.html">Propiedades</a></li>
+                    <li><a class="menu__item" href="./blog.html">Blog</a></li>
                 </ul>
             </div>
             <a href="index.html">
@@ -40,46 +41,52 @@
                 </div>
                 <div class="dropdown-content">
                     <a href="#">Español</a>
-                    <a href="#">Inglés</a>
+                    <a href="./ingles/index.html">Inglés</a>
                 </div>
             </div>
             <a id="second-option-menu" class="font-color-secunday" href="./login.html">INICIAR / REGISTRARSE</a>
             <a class="font-color-secunday" href="#section-contact">CONTACTO</a>
         </ul>
-    </navbar> 
+    </nav>
     <!-- about us -->
-    <section style="display: flex; padding-left: 5%; padding-right: 5%;" class="background-blue font-white">
-        <div style="flex: 1;">
-            <h1 class="big-title underline"><i>Sobre Nosotros...</i></h1>
-            <p>Somos una plataforma de inversión, 100% digital en proyectos inmobiliarios rentables e innovadores; donde te ayudamos a invertir con bajos montos, logrando así obtener una propiedad o fracción de la misma. Además queremos ampliar el acceso a mejores oportunidades para la construcción de una comunidad de socios en <strong>VestHouse.</strong>
-            </p>
-        </div>
-        <div style="flex: 1; text-align: center;">
-            <img src="./assets/robert.png" alt="">
+    <section style="display: flex; padding-left: 5%; padding-right: 5%; justify-content: center; padding: 50px;" class="background-blue font-white">
+        <div style="width: 80%;">
+            <div style="width: 50%; float:left">
+                <h1 class="big-title underline"><i>Sobre Nosotros...</i></h1>
+                <p>Somos una plataforma de inversión, 100% digital en proyectos inmobiliarios rentables e innovadores; donde te ayudamos a invertir con bajos montos, logrando así obtener una propiedad o fracción de la misma. Además queremos ampliar el acceso a mejores oportunidades para la construcción de una comunidad de socios en <strong>VestHouse.</strong>
+                </p>
+            </div>
+            <div style="text-align: center; width: 50%; float:right">
+                <img src="./assets/robert.png" alt="">
+            </div>
         </div>
     </section>
     <!-- news -->
-    <section>
+    <section style="width: 80%; margin: 50px auto;">
         <div style="display: flex;">
             <div style="flex: 1; text-align: center; padding-top: 30px;">
                 <span style="color: #606060; font-size: 30px;">Medios en los que hemos aparecido</span>
+                <strong class="font-blue text-left" style="font-size: 40px;">VestHouse en los medios</strong>
                 <br>
-                <span class="font-blue" style="font-size: 60px;">VestHouse en los medios</span>
                 <img style="border-radius: 20px; margin-top: 20px;" src="./assets/robert.png" alt="">
             </div>
-            <div style="flex: 1; padding-left: 5%; padding-right: 5%; padding-top: 3%;">
+            <div style="flex: 1; padding-left: 5%; padding-right: 5%; padding-top: 10%;">
                 <i>Periodico</i>
                 <span style="text-decoration: line-through black; color: #fff;">______</span>
                 <br>
                 <strong class="underline">Inversiones futuro</strong>
                 <br>
                 <br>
-                <p>"... Han concebido un proyecto totalmente digital con el potencial de revolucionar la forma en que las personas abordan 
+                <p>
+                    "... Han concebido un proyecto totalmente digital con el potencial de revolucionar la forma en que las personas abordan 
                     la inversión y la propiedad inmobiliaria. Su visión es proporcionar a individuos de todo el mundo la oportunidad de adquirir 
                     propiedades o participar en la adquisición de fracciones de las mismas, al tiempo que generan ingresos a través de comisiones 
-                    por estas inversiones ..."</p>
+                    por estas inversiones ..."
+                </p>
                 <p>
-                    <a style="font-size: 20px;" href="#popup1" class="font-blue"><i>Leer más...</i></a>
+                    <a style="font-size: 20px;" href="#popup1" class="font-blue">
+                        <i>Leer más...</i>
+                    </a>
                 </p>
 
                 <div id="popup1" class="overlay">
@@ -93,13 +100,14 @@
             </div>
         </div>
     </section>
-    <section class="background-blue font-white">
+    <section class="background-blue font-white" style="padding: 50px;">
         <div style="text-align: center; font-size: 30px;">
-            <h1>Nuestro inicio</h1>
+            <h1>Nuestro Inicio</h1>
         </div>
         <div style="display: flex;">
             <div style="flex: 1;" class="about-border-rigth">
-                <div class="card-simulator"><strong>Quiénes Somos:
+                <div class="card-simulator">
+                    <strong>Quiénes Somos:
                     <br> (Ana Sofia Castrillón y Maria Camila Sepúlveda):</strong>
                     Durante todo el proceso, lideran el proyecto "VestHouse" en su universidad.
                     Ambas fundadoras aportaron sus conocimientos y habilidades en el desarrollo de la plataforma y en la educación 
@@ -158,45 +166,40 @@
             </div>
         </div>
     </section>
-    <section class="text-center">
-        <h1 style="font-size:30px;">Nuestro aliado</h1>
-        <img style="width: 90%;height: 90%;" src="./assets/Fondo-claro-logo.webp" alt="">
+    <section class="text-center" style="margin-top: 50px;">
+        <h1 style="font-size:30px;">Nuestro Aliado</h1>
+        <img style="width: 50%;" src="./assets/Fondo-claro-logo.webp" alt="">
 
         <section id="section-contact" class="background-blue font-white" style="display: flex;">
             <div style="flex: 1; padding: 5%;  text-align: center;">
-                <img src="./assets/logo_dark.png" alt="">
-                <p>Sé parte de una comunidad, crece tu patrimonio y construye tu futuro</p>
+                <img src="./assets/logo_dark.png" alt="" width="200">
+                <p>Sé parte de una comunidad, crece <br/> tu patrimonio y construye tu futuro</p>
             </div>
             <div class="text-center" style="flex: 1; padding-top: 5%;">
-                <span>Contáctanos</span>
+                <span class="">Contáctanos</span>
                 <br>
                 <input type="text" id="input-contact" placeholder="Déjanos tu correo">
-                <div style="display: flex; padding-left: 18%; padding-right: 18%; padding-top: 13px;">
+                <div style="display: flex; padding-left: 18%; padding-right: 18%; padding-top: 13px; margin-top: 20px;">
                     <div style="flex: 1; ">
                         <a style="text-decoration: none; color: white;" href="mailto:vesthouseinvestments@gmail.com">
-                            <img src="./assets/email.png" style="width: 40px; height: 30px;" alt="">
-                            <span>Email</span>
+                            <span class="redes-sociales">Email</span>
                         </a>
                     </div>
                     <div style="flex: 1; border-right: solid white; border-left: solid white;">
-                        <a style="color: white; text-decoration: none;"
-                            target="_blank"
+                        <a style="color: white; text-decoration: none;" target="_blank"
                             href="https://www.instagram.com/vesthouse.investment/">
-                            <img src="./assets/instagram.png" style="width: 40px; height: 36px;" alt="">
-                            <span>instagram</span>
+                            <span class="redes-sociales">Instagram</span>
                         </a>
                     </div>
                     <div style="flex: 1;">
                         <!-- 3003120424 -->
                         <a style="color: white; text-decoration: none;" href="https://wa.link/9bn420">
-                            <img target="_blank" src="./assets/wpp.png" style="width: 40px; height: 36px;" alt="">
-                            <span style="padding-bottom: 20px;">whatsapp</span>
+                            <span class="redes-sociales">Whatsapp</span>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
-
 
 
 </body>

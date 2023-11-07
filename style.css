@@ -150,8 +150,7 @@ select {
     margin-top: 50px;
     background-color: #eff1f4;
     border-radius: 10px;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding: 6% !important;
     color: #09335f;
     padding-top: 5px;
     padding-bottom: 30px;

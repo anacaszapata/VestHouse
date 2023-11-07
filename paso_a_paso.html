@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="utilidades.css">
 </head>
 
 <body style="margin: 0;">
@@ -21,7 +22,7 @@
 
                 <ul class="menu__box">
                     <li><a class="menu__item" href="./index.html">Inicio</a></li>
-                    <li><a class="menu__item" href="./about_us.html">Sobre nostros</a></li>
+                    <li><a class="menu__item" href="./about_us.html">Sobre nosotros</a></li>
                     <li><a class="menu__item" href="./paso_a_paso.html">Paso a Paso</a></li>
                     <li><a class="menu__item" href="./propiedades.html">Propiedades</a></li>
                     <li><a class="menu__item" href="./blog.html">Blog</a></li>
@@ -48,9 +49,9 @@
     <section>
         <img width="100%" src="/assets/portada paso a paso.png" alt="">
     </section>
-    <section>
+    <section style="margin: 50px auto; width: 80%; ">
         <div style="text-align: center;">
-            <h1 class="big-title font-blue underline">Paso a paso</h1>
+            <h2 class="big-title font-blue underline">Paso a Paso</h2>
         </div>
 
         <div class="text-center display" style="padding-left: 5%; padding-right: 5%;  gap: 50px">
@@ -75,38 +76,38 @@
                 </div>
             </div>
         </div>
-
-    </section>
-
     </section>
     <section>
 
-        <section style="text-align: center; padding-left: 5%; padding-right: 5%;" class="background-blue font-white">
+        <section style="text-align: center; padding: 3%;" class="background-blue font-white">
             <div style="flex: 1;">
-                <h1 class="big-title">¿Por qué invertir en VestHouse?</h1>
+                <h2 class="big-title">¿Por qué invertir en VestHouse?</h2>
             </div>
-            <div style="padding-bottom: 80px;">
+            <div style="padding-bottom: 80px;" class="text-left">
 
-                <div class="card-simulator"><strong>Garantía:</strong>
-                    Porque fueron cuidadosamente seleccionados con respecto a su ubicación y características, están en
-                    un estado de cuidado único, tienen potencial en su valorización y están a un precio justo, además el
-                    proceso de compra es el más ágil del mercado.
-                    <br>
-                    <br>
+                <div style="padding: 4% 6% !important; width: 50%; margin-left: auto; margin-right: auto;" class="card-simulator">
+                    <strong>Garantía:</strong>
+                    <p style="color: #3b3a3a;"> 
+                        Porque fueron cuidadosamente seleccionados con respecto a su ubicación y características, están en
+                        un estado de cuidado único, tienen potencial en su valorización y están a un precio justo, además el
+                        proceso de compra es el más ágil del mercado.
+                    </p>
                     <strong>Educación:</strong>
-                    Si no tienes conocimiento de cómo invertir, en Vesthouse te compartimos cursos y planes de apoyo e
-                    inspiracion de inversión donde podrás aprender los riesgos, beneficios y cómo proceder para realizar
-                    una inversión.
-                    <br>
-                    <br>
+                    <p style="color: #3b3a3a;"> 
+                        Si no tienes conocimiento de cómo invertir, en Vesthouse te compartimos cursos y planes de apoyo e
+                        inspiracion de inversión donde podrás aprender los riesgos, beneficios y cómo proceder para realizar
+                        una inversión.  
+                    </p>
                     <strong>Crowdfunding:</strong>
-                    Tenemos la ventaja de que implementamos el termino “crowdfunding” que trata de realizar inversiones
-                    en fracciones para así obtener cierto porcentaje de los derechos de la propiedad.
-                    <br>
-                    <br>
-                    <strong><i class="underline">Empleos:</i>
+                    <p style="color: #3b3a3a;"> 
+                        Tenemos la ventaja de que implementamos el termino “crowdfunding” que trata de realizar inversiones
+                        en fracciones para así obtener cierto porcentaje de los derechos de la propiedad.    
+                    </p>
+                    <strong>
+                        <i class="underline">Empleos:</i>
                         En VestHouse estamos generando más empleo, dando un porcentaje de la inversión de a todos los
-                        asesores externos que realicen una venta de nuestras propiedades.</strong>
+                        asesores externos que realicen una venta de nuestras propiedades.
+                    </strong>
                 </div>
 
             </div>
@@ -186,32 +187,29 @@
     </section>
     <section id="section-contact" class="background-blue font-white" style="display: flex;">
         <div style="flex: 1; padding: 5%;  text-align: center;">
-            <img src="/assets/logo_dark.png" alt="">
-            <p>Se parte de una comunidad, crece tu patrimonio y construye tu futuro</p>
+            <img src="./assets/logo_dark.png" alt="" width="200">
+            <p>Sé parte de una comunidad, crece <br/> tu patrimonio y construye tu futuro</p>
         </div>
         <div class="text-center" style="flex: 1; padding-top: 5%;">
-            <span>Contáctanos</span>
+            <span class="">Contáctanos</span>
             <br>
             <input type="text" id="input-contact" placeholder="Déjanos tu correo">
-            <div style="display: flex; padding-left: 18%; padding-right: 18%; padding-top: 13px;">
+            <div style="display: flex; padding-left: 18%; padding-right: 18%; padding-top: 13px; margin-top: 20px;">
                 <div style="flex: 1; ">
                     <a style="text-decoration: none; color: white;" href="mailto:vesthouseinvestments@gmail.com">
-                        <img src="assets/email.png" style="width: 40px; height: 30px;" alt="">
-                        <span>Email</span>
+                        <span class="redes-sociales">Email</span>
                     </a>
                 </div>
                 <div style="flex: 1; border-right: solid white; border-left: solid white;">
                     <a style="color: white; text-decoration: none;" target="_blank"
                         href="https://www.instagram.com/vesthouse.investment/">
-                        <img src="assets/instagram.png" style="width: 40px; height: 36px;" alt="">
-                        <span>instagram</span>
+                        <span class="redes-sociales">Instagram</span>
                     </a>
                 </div>
                 <div style="flex: 1;">
                     <!-- 3003120424 -->
                     <a style="color: white; text-decoration: none;" href="https://wa.link/9bn420">
-                        <img target="_blank" src="assets/wpp.png" style="width: 40px; height: 36px;" alt="">
-                        <span style="padding-bottom: 20px;">whatsapp</span>
+                        <span class="redes-sociales">Whatsapp</span>
                     </a>
                 </div>
             </div>

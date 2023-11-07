@@ -1,10 +1,10 @@
 .blue-box {
     position: absolute;
     background: #3C5E81;
-    width: 33%;
+    width: 30%;
     left: 770px;
     top: 75px;
-    height: 280px;
+    height: 405px;
     border-radius: 10px;
 }
 
