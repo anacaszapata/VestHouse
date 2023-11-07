@@ -6,50 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pop_up.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body style="margin: 0;">
-    <nav class="navbar">
+    <navbar
+        style="display: flex; align-items: center; justify-content: space-between; padding-right: 20px; padding-top: 10px;">
+        <div style="display: flex; gap: 5px;">
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="/index.html">Inicio</a></li>
+                    <li><a class="menu__item" href="/about_us.html">Sobre nostros</a></li>
+                    <li><a class="menu__item" href="/paso_a_paso.html">Paso a Paso</a></li>
+                    <li><a class="menu__item" href="/propiedades.html">Propiedades</a></li>
+                    <li><a class="menu__item" href="/blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <a href="index.html">
+                <img id="img-logo" src="/assets/logo_clear.png" alt="Logo">
+            </a>
+        </div>
         <ul class="font-color-secunday">
-            <img id="img-logo" src="/assets/logo_clear.png" alt="Logo">
-            <a class="font-color-secunday" href="#">MENÚ</a>
-            <a class="font-color-secunday" href="#">ESPAÑOL</a>
-            <a class="font-color-secunday" href="#">INICIAR / REGISTRARSE</a>
+            <div class="dropdown">
+                <div class="dropbtn font-color-secunday">
+                    <span>IDIOMA </span>
+                </div>
+                <div class="dropdown-content">
+                    <a href="#">Español</a>
+                    <a href="#">Inglés</a>
+                </div>
+            </div>
+            <a id="second-option-menu" class="font-color-secunday" href="/login.html">INICIAR / REGISTRARSE</a>
             <a class="font-color-secunday" href="#section-contact">CONTACTO</a>
-            <a class="font-color-secunday" href="./about_us.html">SOBRE NOSTROS</a>
         </ul>
-    </nav>
+    </navbar>
     <section>
-        <img width="100%" src="/assets/invest_house.png" alt="">
+        <img width="100%" src="/assets/portada paso a paso.png" alt="">
     </section>
     <section>
         <div style="text-align: center;">
-            <h1 class="big-title font-blue">Paso a paso</h1>
+            <h1 class="big-title font-blue underline">Paso a paso</h1>
         </div>
-        <div style="display: flex;">
-           
-            <div class="text-center display" style="padding-left: 5%; padding-right: 5%;  gap: 50px">
-                <div class="flex-1">
-                    <div class="card-steps background-blue">
-                        <strong style="color: white;">1</strong>
-                    </div>
-                    <div class="border-blue border-radius circle-step">
-                        <p>Explora nuestras propiedades:
-                            En nuestra página podrás encontrar distintas propiedades,
-                            en donde podrás ver los detalles de esta, ya sean fotos de la casa, precios y su ubicación.
-                        </p>
-                    </div>
+
+        <div class="text-center display" style="padding-left: 5%; padding-right: 5%;  gap: 50px">
+            <div class="flex-1">
+                <div class="card-steps background-blue">
+                    <strong style="color: white;">1</strong>
                 </div>
-                <div class="flex-1">
-                    <div class="card-steps background-blue">
-                        <strong style="color: white;">2</strong>
-                    </div>
-                    <div class="border-blue border-radius circle-step">
-                        <p>Selecciona la propiedad de tu gusto:
-                            Luego de ver los detalles de las propiedades y elegir la que más te guste,
-                            puedes contactarnos por whatsapp o correo electrónico.
-                        </p>
-                    </div>
+                <div class="border-blue border-radius circle-step">
+                    <p><strong>Explora nuestras propiedades:</strong>
+                        En nuestra página podrás encontrar distintas propiedades,
+                        en donde podrás ver los detalles de esta, ya sean fotos de la casa, precios y su ubicación.</p>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="card-steps background-blue">
+                    <strong style="color: white;">2</strong>
+                </div>
+                <div class="border-blue border-radius circle-step">
+                    <p><strong>Selecciona la propiedad de tu gusto:</strong>
+                        Luego de ver los detalles de las propiedades y elegir la que más te guste,
+                        puedes contactarnos por whatsapp o correo electrónico.</p>
                 </div>
             </div>
         </div>
@@ -65,56 +89,74 @@
             </div>
             <div style="padding-bottom: 80px;">
 
-                <div class="card-simulator">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque deleniti at
-                    harum dolore rem alias a, explicabo id facere culpa. Aperiam eius cupiditate vel laboriosam
-                    molestiae? Delectus, soluta rerum. Ab.</div>
+                <div class="card-simulator"><strong>Garantía:</strong>
+                    Porque fueron cuidadosamente seleccionados con respecto a su ubicación y características, están en
+                    un estado de cuidado único, tienen potencial en su valorización y están a un precio justo, además el
+                    proceso de compra es el más ágil del mercado.
+                    <br>
+                    <br>
+                    <strong>Educación:</strong>
+                    Si no tienes conocimiento de cómo invertir, en Vesthouse te compartimos cursos y planes de apoyo e
+                    inspiracion de inversión donde podrás aprender los riesgos, beneficios y cómo proceder para realizar
+                    una inversión.
+                    <br>
+                    <br>
+                    <strong>Crowdfunding:</strong>
+                    Tenemos la ventaja de que implementamos el termino “crowdfunding” que trata de realizar inversiones
+                    en fracciones para así obtener cierto porcentaje de los derechos de la propiedad.
+                    <br>
+                    <br>
+                    <strong><i class="underline">Empleos:</i>
+                        En VestHouse estamos generando más empleo, dando un porcentaje de la inversión de a todos los
+                        asesores externos que realicen una venta de nuestras propiedades.</strong>
+                </div>
 
             </div>
         </section>
     </section>
     <section>
         <div style="text-align: center;">
-            <h1 class="big-title font-blue">Nuevas propiedades con VestHouse!</h1>
+            <h1 class="big-title font-blue underline">Nuevas propiedades con VestHouse!</h1>
         </div>
-        <div style="margin-left: 10%; margin-right: 10%;">
+        <div style="margin-left: 30%; margin-right: 30%;">
             <div class="carousel" style="border-radius: 10px;">
                 <div class="carousel-inner">
                     <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true"
                         hidden="" checked="checked">
                     <div class="carousel-item">
-                        <img src="/assets/invest_house.png">
+                        <img src="/assets/houses/casa1.jpeg">
                         <div class="font-blue footer-carrousel">
-                            <span>Direccion: casa 12</span>
+                            <span>Direccion: Rionegro, Antioquia</span>
                             <br>
-                            <span>Precio: 1000.000.000</span>
+                            <span>Precio: 700.000.000</span>
                             <br>
-                            <span>Fracciones disponibles: xxxx</span>
+                            <span>Fracciones disponibles: 324</span>
                             <br>
                         </div>
                     </div>
                     <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"
                         hidden="">
                     <div class="carousel-item">
-                        <img src="/assets/robert.png">
+                        <img src="/assets/houses/casa2.jpeg">
                         <div class="font-blue footer-carrousel">
-                            <span>Direccion: penthouse</span>
+                            <span>Direccion: Envigado, Antioquia</span>
                             <br>
-                            <span>Precio: 8.000.000.000</span>
+                            <span>Precio: 490.000.000</span>
                             <br>
-                            <span>Fracciones disponibles: xxxx</span>
+                            <span>Fracciones disponibles: 87</span>
                             <br>
                         </div>
                     </div>
                     <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true"
                         hidden="">
                     <div class="carousel-item">
-                        <img src="/assets/invest_house.png">
+                        <img src="/assets/houses/casa3.jpeg">
                         <div class="font-blue footer-carrousel">
-                            <span>Direccion: carrera 50394</span>
+                            <span>Direccion: San Jerónimo, Antioquia</span>
                             <br>
-                            <span>Precio: 90.505.959</span>
+                            <span>Precio: 900.505.959</span>
                             <br>
-                            <span>Fracciones disponibles: xxxx</span>
+                            <span>Fracciones disponibles: 541</span>
                             <br>
                         </div>
                     </div>
@@ -147,12 +189,12 @@
     <section id="section-contact" class="background-blue font-white" style="display: flex;">
         <div style="flex: 1; padding: 5%;  text-align: center;">
             <img src="/assets/logo_dark.png" alt="">
-            <p>Sé parte de una comunidad, crece tu patrimonio y construye tu futuro</p>
+            <p>Se parte de una comunidad, crece tu patrimonio y construye tu futuro</p>
         </div>
         <div class="text-center" style="flex: 1; padding-top: 5%;">
             <span>Contáctanos</span>
             <br>
-            <input type="text" id="input-contact" placeholder="Dejanos tu correo">
+            <input type="text" id="input-contact" placeholder="Déjanos tu correo">
             <div style="display: flex; padding-left: 18%; padding-right: 18%; padding-top: 13px;">
                 <div style="flex: 1; ">
                     <a style="text-decoration: none; color: white;" href="mailto:vesthouseinvestments@gmail.com">
