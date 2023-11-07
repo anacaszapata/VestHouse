@@ -413,3 +413,46 @@ body {
 .overandunderline{
     text-decoration-line: underline overline
 }
+
+
+
+/* Estilos para dispositivos móviles con una anchura máxima de 768px */
+@media (max-width: 768px) {
+    .section-blue {
+        text-align: center;
+    }
+
+    .mobile-layout {
+        display: block;
+    }
+
+    .mobile-image {
+        max-width: 100%;
+    }
+
+    .text-content {
+        padding: 10px;
+    }
+}
+
+/* Estilos para dispositivos de escritorio con una anchura mínima de 769px */
+@media (min-width: 769px) {
+    .section-blue {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-layout {
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile-image {
+        max-width: 50%; 
+    }
+
+    .text-content {
+        padding: 0 10%;
+    }
+}
+

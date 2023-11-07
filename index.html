@@ -21,7 +21,7 @@
                 </label>
 
                 <ul class="menu__box">
-                    <li><a class="menu__item" href="/index.html">inicio</a></li>
+                    <li><a class="menu__item" href="/index.html">Inicio</a></li>
                     <li><a class="menu__item" href="/about_us.html">Sobre nostros</a></li>
                     <li><a class="menu__item" href="/paso_a_paso.html">Paso a Paso</a></li>
                     <li><a class="menu__item" href="/propiedades.html">Propiedades</a></li>
@@ -81,19 +81,21 @@
     </section>
     <!-- photo -->
     <section class="section-blue">
-        <div style="display: flex; text-align: center;">
-            <div style="flex: 50%;">
-                <img src="/assets/robert.png" style="margin-top: 5%;" alt="">
-            </div>
-            <div style="flex: 50%; color: #fff; padding-top: 5%; padding-right: 10%; padding-left: 10%;">
-                <span style="font-size: 40px;">Robert Kiyosaki</span>
+        <div class="mobile-layout">
+            <img src="/assets/robert.png" alt="" class="mobile-image">
+            <div class="text-content">
+                <span class="font-white" style="font-size: 40px;">Robert Kiyosaki</span>
                 <p style="color: white; margin-top: -12px;">________________________________</p>
                 <br>
-                <span>La inversión en buenes raíces, incluso en una esala muy pequeña sigue siendo un medio probado
-                    verdaro de construir la riqueza del un individuo</span>
+                <span class="font-white">La inversión en bienes raíces, incluso en una escala muy pequeña, sigue siendo un medio probado verdadero de construir la riqueza de un individuo.</span>
             </div>
         </div>
     </section>
+    
+
+
+
+
 
     <section style="display: flex; text-align: center; margin-bottom: 30px">
         <div style="flex: 1;  ">
@@ -101,10 +103,10 @@
             <section style="flex-direction: column;">
                 <select>
                     <option value="" disabled selected hidden>Selecciona tu proyecto</option>
-                    <option value="">las palmas</option>
-                    <option value="">Barrio antioquia</option>
-                    <option value="">Guatape</option>
-                    <option value="">Proyecto fenix - rionegro</option>
+                    <option value="">Rionegro</option>
+                    <option value="">Envigado</option>
+                    <option value="">San Jerónimo</option>
+                    
                 </select>
                 <br>
                 <select>
@@ -176,7 +178,7 @@
             <h1 style="margin-bottom: 0%;" class="big-title">Preguntas </h1>
             <h1 style="margin-top: 0%;" class="big-title underline">frecuentes</h1>
 
-            <p style="text-align: start;">No te preocupes, aqui en VestHouse resolvermos todas tus dudas, ¿Tienes
+            <p style="text-align: start;">No te preocupes, aquí en VestHouse resolvemos todas tus dudas, ¿Tienes
                 alguna?</p>
         </div>
         <div style="flex: 2; padding-right: 10%;">
@@ -195,45 +197,45 @@
         <div style="text-align: center;">
             <h1 class="big-title font-blue underline">Nuevas propiedades con VestHouse!</h1>
         </div>
-        <div style="margin-left: 10%; margin-right: 10%;">
+        <div style="margin-left: 30%; margin-right: 30%;">
             <div class="carousel" style="border-radius: 10px;">
                 <div class="carousel-inner">
                     <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true"
                         hidden="" checked="checked">
                     <div class="carousel-item">
-                        <img src="/assets/invest_house.png">
+                        <img src="/assets/houses/casa1.jpeg">
                         <div class="font-blue footer-carrousel">
-                            <span>Direccion: casa 12</span>
+                            <span>Direccion: Rionegro, Antioquia</span>
                             <br>
-                            <span>Precio: 100.000.000</span>
+                            <span>Precio: 700.000.000</span>
                             <br>
-                            <span>Fracciones disponibles: xxxx</span>
+                            <span>Fracciones disponibles: 324</span>
                             <br>
                         </div>
                     </div>
                     <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true"
                         hidden="">
                     <div class="carousel-item">
-                        <img src="/assets/robert.png">
+                        <img src="/assets/houses/casa2.jpeg">
                         <div class="font-blue footer-carrousel">
-                            <span>Direccion: penthouse</span>
+                            <span>Direccion: Envigado, Antioquia</span>
                             <br>
-                            <span>Precio: 8.000.000.000</span>
+                            <span>Precio: 490.000.000</span>
                             <br>
-                            <span>Fracciones disponibles: xxxx</span>
+                            <span>Fracciones disponibles: 87</span>
                             <br>
                         </div>
                     </div>
                     <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true"
                         hidden="">
                     <div class="carousel-item">
-                        <img src="/assets/invest_house.png">
+                        <img src="/assets/houses/casa3.jpeg">
                         <div class="font-blue footer-carrousel">
-                            <span>Direccion: carrera 50394</span>
+                            <span>Direccion: San Jerónimo, Antioquia</span>
                             <br>
-                            <span>Precio: 90.505.959</span>
+                            <span>Precio: 900.505.959</span>
                             <br>
-                            <span>Fracciones disponibles: xxxx</span>
+                            <span>Fracciones disponibles: 541</span>
                             <br>
                         </div>
                     </div>
@@ -272,7 +274,7 @@
         <div class="text-center" style="flex: 1; padding-top: 5%;">
             <span class="underline">Contáctanos</span>
             <br>
-            <input type="text" id="input-contact" placeholder="Dejanos tu correo">
+            <input type="text" id="input-contact" placeholder="Déjanos tu correo">
             <div style="display: flex; padding-left: 18%; padding-right: 18%; padding-top: 13px;">
                 <div style="flex: 1; ">
                     <a style="text-decoration: none; color: white;" href="mailto:vesthouseinvestments@gmail.com">
@@ -296,7 +298,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>   
 </body>
-
 </html>
