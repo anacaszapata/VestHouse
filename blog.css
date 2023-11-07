@@ -1,9 +1,39 @@
-.green-box {
+.blue-box {
     position: absolute;
     background: #3C5E81;
     width: 33%;
     left: 770px;
     top: 75px;
-    height: 320px;
+    height: 280px;
     border-radius: 10px;
+}
+
+#timer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    background: #09335f;
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+#timer-child {
+    background-color: #fff;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    gap: 7%;
+}
+
+.button-secunday{
+    border: none;
+    border: 1px solid #09335f;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
