@@ -1,0 +1,1 @@
+usar block para usar toda la pagina en un responsive
